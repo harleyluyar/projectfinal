@@ -83,6 +83,11 @@ class HomePage extends StatelessWidget {
 
             Row(
               children: <Widget>[
+                Text('  ',
+                    style: TextStyle(
+                        fontSize: 36.0,
+                        color: Colors.pink.shade600,
+                        fontWeight: FontWeight.bold)),
                 const Text('A',
                     textAlign: TextAlign.center,
                     style: TextStyle(
@@ -90,6 +95,11 @@ class HomePage extends StatelessWidget {
                       fontWeight: FontWeight.bold,
                       color: Colors.red,
                     )),
+                Text('  ',
+                    style: TextStyle(
+                        fontSize: 36.0,
+                        color: Colors.pink.shade600,
+                        fontWeight: FontWeight.bold)),
                 Expanded(
                     child: TextField(
                   textAlign: TextAlign.center,
@@ -106,7 +116,6 @@ class HomePage extends StatelessWidget {
                   color: Colors.white.withOpacity(0.0),
                   height: 100,
                   width: 10,
-
                 ),
                 Expanded(
                     child: TextField(
@@ -120,10 +129,20 @@ class HomePage extends StatelessWidget {
                     hintText: 'Enter Price A',
                   ),
                 )),
+                Text('  ',
+                    style: TextStyle(
+                        fontSize: 36.0,
+                        color: Colors.pink.shade600,
+                        fontWeight: FontWeight.bold)),
               ],
             ),
             Row(
               children: <Widget>[
+                Text('  ',
+                    style: TextStyle(
+                        fontSize: 36.0,
+                        color: Colors.pink.shade600,
+                        fontWeight: FontWeight.bold)),
                 Text('B',
                     textAlign: TextAlign.center,
                     style: TextStyle(
@@ -131,6 +150,11 @@ class HomePage extends StatelessWidget {
                       fontWeight: FontWeight.bold,
                       color: Colors.blue,
                     )),
+                Text('  ',
+                    style: TextStyle(
+                        fontSize: 36.0,
+                        color: Colors.pink.shade600,
+                        fontWeight: FontWeight.bold)),
                 Expanded(
                     child: TextField(
                   textAlign: TextAlign.center,
@@ -160,6 +184,11 @@ class HomePage extends StatelessWidget {
                     hintText: 'Enter Price B',
                   ),
                 )),
+                Text('  ',
+                    style: TextStyle(
+                        fontSize: 36.0,
+                        color: Colors.pink.shade600,
+                        fontWeight: FontWeight.bold)),
               ],
             ),
             Text('  ',
